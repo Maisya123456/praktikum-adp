@@ -1,0 +1,43 @@
+from termcolor import colored,cprint
+
+for i in range (1):
+    cprint (" "*13, "white", end =" ")
+    cprint(" ", end= " ")
+    cprint (" "*1, "white", "on_white", end=" ")
+    cprint(" "*1, "white", "on_yellow", end=" ")
+    cprint(" "*1, "white", "on_white")
+    
+for i in range (1):
+    cprint (" "*11, "white", end =" ")
+    cprint(" ", end= " ")
+    cprint (" "*9, "white", "on_magenta")
+
+for i in range (1):
+    cprint (" "*8, "white", end =" ")
+    cprint(" ", end= " ")
+    cprint ("∆"*15, "blue", "on_light_grey")
+
+for i in range (1):
+    cprint (" "*8, "white", end =" ")
+    cprint(" ", end= " ")
+    cprint (" "*15, "white", "on_light_blue")
+    
+for i in range (1):
+    cprint (" "*5, "white", end =" ")
+    cprint(" ", end= " ")
+    cprint (" ^"*10, "grey", "on_white")
+    
+for i in range (1):
+    cprint (" "*5, "white", end =" ")
+    cprint(" ", end= " ")
+    cprint (" "*20, "white", "on_yellow")
+    
+for i in range (1):
+    cprint (" "*5, "white", end =" ")
+    cprint(" ", end= " ")
+    cprint ("\_/ "*5,"white", "on_blue" )
+
+for i in range (1):
+    cprint (" "*5, "white", end =" ")
+    cprint(" ", end= " ")
+    cprint (" "*20, "white", "on_cyan" , end=" ")
